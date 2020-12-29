@@ -7,14 +7,14 @@ const Companies = () => (
   <div className="companies">
     <h1>Companies Who Trust Us </h1>
     <div className="company">
-      <img src={logo}></img>
-      <img src={A}></img>
-      <img src={logo}></img>
-      <img src={A}></img>
-      <img src={logo}></img>
-      <img src={A}></img>
-      <img src={logo}></img>
-      <img src={A}></img>
+      <img src={logo} alt="Alphasaurs"></img>
+      <img src={A} alt="Alphasaurs"></img>
+      <img src={logo} alt="Alphasaurs"></img>
+      <img src={A} alt="Alphasaurs"></img>
+      <img src={logo} alt="Alphasaurs"></img>
+      <img src={A} alt="Alphasaurs"></img>
+      <img src={logo} alt="Alphasaurs"></img>
+      <img src={A} alt="Alphasaurs"></img>
     </div>
   </div>
 );

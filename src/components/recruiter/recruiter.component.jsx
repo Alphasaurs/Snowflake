@@ -39,14 +39,23 @@ class Recruiter extends React.Component {
             <div className="item">
               <Link to="/sign-up">
                 <CustomButton type="submit">
-                  <img class="candidates" src={Candidates}></img>Candidate
+                  <img
+                    class="candidates"
+                    src={Candidates}
+                    alt="Alphasaurs"
+                  ></img>
+                  Candidate
                 </CustomButton>
               </Link>
             </div>
 
             <div className="itemblue">
               <CustomButton type="submit">
-                <img class="recruiter" src={RecruiterLogo}></img>
+                <img
+                  class="recruiter"
+                  src={RecruiterLogo}
+                  alt="Alphasaurs"
+                ></img>
                 Recruiter
               </CustomButton>
             </div>
